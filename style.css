@@ -1,0 +1,35 @@
+.slider{
+    height: 450px;
+    width: 95%;
+}
+#slider{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+}
+.slider{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.slider button {
+    border: none;
+    background: none;
+}
+.slider button i{
+    font-size: 40px;
+    border: none;
+}
+.priv{
+    position: absolute;
+    z-index: 2;
+    margin: 20% 5%;
+    color:#ffffff;
+}
+.next{
+    position: absolute;
+    z-index: 2;
+    margin: 20% -10%;
+    color:#ffffff;
+}
